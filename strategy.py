@@ -151,7 +151,7 @@ class EmaStrategy:
             print("Current Price:", close[i])
             print("Previous Price:", close[i - 1])
             
-            # Alış işlemi yapma durumu
+            
             if position=="long":
                 print("Action: Buy")
                 print("Open Long Position")
@@ -162,7 +162,7 @@ class EmaStrategy:
                 profit += close[i] - entry_price
 
             
-            # Satış işlemi yapma durumu
+            
             elif position=="short":
                 print("Action: Sell")
                 print("Open Short Position")
